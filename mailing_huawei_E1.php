@@ -64,15 +64,15 @@ $mail->SMTPAuth = false; // turn on SMTP authentication
 $mail->Username = "";   // SMTP username
 $mail->Password = "";  // SMTP password
 
-$mail->From = "no-reply@banglalinkgsm.com";
+$mail->From = "";
 //$mail->From = $email_to2;
 $mail->FromName = "Alarm Notification";
-$email_test="omc_bss@banglalinkgsm.com";
+$email_test="";
 if ( $email_test != '') { $mail->AddAddress( $email_test, "");}						
 
 
-$email_to="OMC_BSS@banglalinkgsm.com";	
-$CC12 = "mfahad@banglalinkgsm.com";
+$email_to="";	
+$CC12 = "";
 
 if ( $email_to != '') { $mail->AddAddress( $email_to, "");}
 if ( $email_to1 != '') { $mail->AddAddress( $email_to1, "");}

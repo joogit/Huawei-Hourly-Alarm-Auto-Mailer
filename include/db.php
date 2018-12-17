@@ -1,8 +1,8 @@
 <?php
-    $host = '10.10.91.23';
-    $username = 'root';
+    $host = '';
+    $username = '';
     $password = '';
-    $db = 'aska_db_test';
+    $db = '';
     $res = mysql_connect($host, $username, $password);
     if (!$res)
         die('Could not connect to the server, mysql error: ' . mysql_error($res));

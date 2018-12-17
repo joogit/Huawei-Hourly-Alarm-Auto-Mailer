@@ -290,16 +290,16 @@ $mail->SMTPAuth = false; // turn on SMTP authentication
 $mail->Username = "";   // SMTP username
 $mail->Password = "";  // SMTP password
 
-$mail->From = "omc_bss@banglalinkgsm.com";
+$mail->From = "";
 $mail->FromName = "OMC BSS";
-$email_test="OMC_BSS@banglalinkgsm.com";
+$email_test="";
 if ( $email_test != '') { $mail->AddAddress( $email_test, "");}						
 
 
-$email_to="supervision@banglalinkgsm.com";	
+$email_to="";	
 
-$CC2 = "assarker@banglalinkgsm.com";
-$CC3 = "ijamil@banglalinkgsm.com";
+$CC2 = "";
+$CC3 = "";
 if ( $email_to != '') { $mail->AddAddress( $email_to, "");}
 if ( $email_to1 != '') { $mail->AddAddress( $email_to1, "");}
 if ( $email_to2 != '') { $mail->AddAddress( $email_to2, "");}						

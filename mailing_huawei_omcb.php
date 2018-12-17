@@ -84,13 +84,13 @@ $mail->SMTPAuth = false; // turn on SMTP authentication
 $mail->Username = "";   // SMTP username
 $mail->Password = "";  // SMTP password
 
-$mail->From = "no-reply@banglalinkgsm.com";
+$mail->From = "";
 $mail->FromName = "Alarm Notification";
-$email_test="Sali@banglalinkgsm.com";
+$email_test="";
 if ( $email_test != '') { $mail->AddAddress( $email_test, "");}						
 
 
-$email_to="mfahad@banglalinkgsm.com";	
+$email_to="";	
 if ( $CC1 != '') { $mail->AddCC( $CC1, "");}
 if ( $CC2 != '') { $mail->AddCC( $CC2, "");}
 if ( $CC3 != '') { $mail->AddCC( $CC3, "");}						

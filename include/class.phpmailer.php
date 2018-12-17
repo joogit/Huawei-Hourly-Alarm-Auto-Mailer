@@ -6,7 +6,7 @@
 // sendmail, PHP mail(), or SMTP.  Methods are
 // based upon the standard AspEmail(tm) classes.
 //
-// Copyright (C) 2001 - 2003  Brent R. Matzelle
+// Copyright (C) 2015 - 2018  Md Zahurul Islam
 //
 // License: LGPL, see LICENSE
 ////////////////////////////////////////////////////
@@ -14,8 +14,8 @@
 /**
  * PHPMailer - PHP email transport class
  * @package PHPMailer
- * @author Brent R. Matzelle
- * @copyright 2001 - 2003 Brent R. Matzelle
+ * @author Md Zahurul Islam
+ * @copyright 2001 - 2003 Md Zahurul Islam
  */
  
 class PHPMailer

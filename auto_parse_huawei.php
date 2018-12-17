@@ -129,7 +129,6 @@ if (file_exists($file_path))
 }
 
 
-
 //7th part
 
 $date = date("Ymd", time());
@@ -152,10 +151,7 @@ if (file_exists($file_path))
     }
 }
 
-
-
 //8th part
-
 $date = date("Ymd", time());
 $file_name="alarm_1.csv";
 $file_path="raw_files/M2K3/NBI_FM/".$date."/".$file_name;
